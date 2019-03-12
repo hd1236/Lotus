@@ -15,3 +15,13 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+
+#picasso start
+#-dontwarn com.squareup.okhttp.**
+#picasso end
+
+#nohttp start
+#-dontwarn com.yolanda.nohttp.**
+#-keep class com.yolanda.nohttp.**{*;}
+#nohttp start
